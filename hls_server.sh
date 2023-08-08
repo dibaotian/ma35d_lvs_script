@@ -6,33 +6,13 @@
 # https://www.elecard.com/videos
 # https://aomedia.org/
 
-# Set transcode bitrate values
-# # A common recommendation for 4K H.264 video is to use a bitrate of around 35-45 Mbps for good quality
-# BITRATE_H264=45.0M
-# # A common recommendation for 4K HEVC video is to use a bitrate of around 20-30 Mbps for good quality.
-# BITRATE_HEVC=30M
-# #A common recommendation for 4K AV1 video is to use a bitrate of around 15-20 Mbps for good quality
-# BITRATE_AV1=20M
-
-
 BITRATE_H264=8M
 BITRATE_HEVC=5M
 BITRATE_AV1=4M
 
 
-# VMAF values should match the above bitrate values (or just enter ?)
-VMAF_H264=90
-VMAF_HEVC=90
-VMAF_AV1=90
-
 # image_logo="/home/xilinx/Documents/minx/lvs/amd_logo.png"
-
-# INPUT_STREAM="/home/owner/Videos/bbb_sunflower_1080p_60fps_normal.mp4"
-# INPUT_STREAM="/home/xilinx/Documents/minx/lvs/Videos/Basketball_2.1920x1080.I420_20000kbps.h264.mp4"
-# INPUT_STREAM="/home/xilinx/Documents/minx/lvs/Videos/tcl.mp4"
-INPUT_STREAM="/home/xilinx/Documents/minx/lvs/Videos/bbb_sunflower_2160p_60fps_noaudio.mp4"
-# INPUT_STREAM="/home/xilinx/Documents/minx/lvs/Videos/bbb_sunflower_2160p_60fps_normal.mp4"
-#INPUT_STREAM="/home/owner/Videos/testSeq_1080p60_20200806.mp4"
+INPUT_STREAM="/home/xilinx/Documents/minx/lvs/Videos/bbb_sunflower_2160p_60fps.mp4"
 SERVER=http://127.0.0.1:8080 # local loopback
 
 HLS_DIR="/tmp/hls"
