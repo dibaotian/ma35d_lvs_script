@@ -1,5 +1,7 @@
 # ma35d_lvs_script
 
+### Download the video to the Video folder
+
 ### 1 load the driver and enable the enviroment
 ### ./en_ma35_env.sh
 ###
