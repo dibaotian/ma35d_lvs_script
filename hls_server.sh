@@ -24,11 +24,6 @@ FFMPEG_DIR="/opt/amd/ma35/bin"
 export FIRMWARE_DIR=/opt/amd/ma35/firmware
 #export LD_LIBRARY_PATH=/opt/amd/ma35/lib
 
-#FFMPEG_DIR="/home/owner/git/ma35/build/_deps/ffmpeg-build"
-#export FIRMWARE_DIR=/home/owner/git/ma35/build/_deps/shelf-src/firmware_platform/
-#export LD_LIBRARY_PATH=/home/owner/git/ma35/build/_deps/vsi_libs-build/src/vpe/src/:/home/owner/git/ma35/build/_deps/apps-build/xrm_apps/xrm_interface/:/home/owner/git/ma35_shelf/roi_scale/:/home/owner/git/ma35_shelf/xav1sdk/:/home/owner/git/ma35_shelf/xrm/:/home/owner/git/ma35/build/_deps/vsi_libs-build/src/vpe/prebuild/:/home/owner/git/ma35/build/_deps/vsi_libs-build/sdk/xabr/
-#export LD_LIBRARY_PATH=/home/owner/git/ma35/build/_deps/vsi_libs-build/src/vpe/src/:/home/owner/git/ma35/build/_deps/apps-build/xrm_apps/xrm_interface/:/home/owner/git/ma35/build/_deps/shelf-src/roi_scale:/home/owner/git/ma35/build/_deps/shelf-src/xav1sdk:/home/owner/git/ma35/build/_deps/shelf-src/xrm/:/home/owner/git/ma35/build/_deps/vsi_libs-build/src/vpe/prebuild/:/home/owner/git/ma35/build/_deps/vsi_libs-build/sdk/xabr/
-
 DISP_W=1600
 DISP_H=900
 
