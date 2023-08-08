@@ -6,16 +6,6 @@
 # https://www.elecard.com/videos
 # https://aomedia.org/
 
-# Set transcode bitrate values
-# BITRATE_H264=3.0M
-# BITRATE_HEVC=2.1M
-BITRATE_AV1=4M
-
-# VMAF values should match the above bitrate values (or just enter ?)
-VMAF_H264=90
-VMAF_HEVC=90
-VMAF_AV1=90
-
 # INPUT_STREAM="/home/xilinx/Documents/minx/lvs/Videos/tcl.mp4"
 SERVER=http://127.0.0.1:8080 # local loopback
 
@@ -47,8 +37,8 @@ trap "trap - SIGTERM && kill -9 -- -$$" SIGINT SIGTERM EXIT ERR # will kill the 
 # STREAM_AV1"stream_av1.m3u8"
 # STREAM_HEVC="stream_hevc.m3u8"
 
-# INPUT_STREAM="/home/xilinx/Documents/minx/lvs/Videos/bbb_sunflower_2160p_60fps.mp4"
-INPUT_STREAM="/home/xilinx/Documents/minx/lvs/Videos/bbb_sunflower_2160p_60fps_normal.mp4"
+INPUT_STREAM="/home/xilinx/Documents/minx/lvs/Videos/bbb_sunflower_2160p_60fps.mp4"
+# INPUT_STREAM="/home/xilinx/Documents/minx/lvs/Videos/bbb_sunflower_2160p_60fps_normal.mp4"
 STREAM_H264="h264.m3u8"
 STREAM_HEVC="hevc.m3u8"
 STREAM_AV1="av1.m3u8"
